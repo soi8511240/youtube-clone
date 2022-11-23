@@ -1,10 +1,6 @@
 import React from 'react';
-import VideoList from '../components/VideoList/VideoList';
+import VideoList from '../components/Video/VideoList';
 
-export default function Body() {
-  return (
-    <div>
-      <VideoList />
-    </div>
-  );
+export default function Main() {
+  return <div>{<VideoList />}</div>;
 }

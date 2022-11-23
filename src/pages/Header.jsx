@@ -1,10 +1,10 @@
 import React from 'react';
-import Search from '../components/Search/Search';
+import SearchBar from '../components/Search/SearchBar';
 
 export default function Header() {
   return (
     <header>
-      <Search />
+      <SearchBar />
     </header>
   );
 }
